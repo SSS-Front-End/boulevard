@@ -1,0 +1,132 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 992px;
+    }
+
+    .main__content {
+        flex-direction: column;
+    }
+
+    .main__desc1 {
+        text-align: center;
+        max-width: none;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .main__img {
+        max-width: 550px;
+        width: 100%;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+
+    .main__content2 {
+        margin-bottom: 30px;
+    }
+
+    .main__content3 {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .main__desc3 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .main__desc3::after {
+        opacity: 0;
+    }
+
+    .main__desc4 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .main__desc4::before {
+        opacity: 0;
+    }
+
+    .cards__card {
+        justify-content: space-evenly;
+    }
+
+
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .background__title {
+        font-size: 75px;
+    }
+
+    .main__content {
+        width: 100%;
+    }
+
+    .main__content2 {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main__desc2 {
+        text-align: center;
+    }
+
+    .cards__card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+}
+
+@media (max-width: 540px) {
+    .menu {
+        margin-top: 20px;
+        padding: none;
+
+    }
+
+    .menu__link {
+        padding: none;
+        padding: 0;
+    }
+
+    .header__desc {
+        margin: 0 auto;
+    }
+
+    .menu__link:first-of-type {
+        margin-right: 15px;
+    }
+
+    .header .container {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .header img {
+        margin: 0 auto;
+    }
+
+    .footer .container {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .background__title {
+        font-size: 50px;
+    }
+}
